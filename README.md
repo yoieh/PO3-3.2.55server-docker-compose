@@ -16,6 +16,6 @@ Then do a first start
 
 After the fist start shutdown the server by runing  `docker-compose down`
 
-You can now replace the world dir with your own world.
+You can now replace the world dir in `./data` with your own world and other files you might need.
 
 Start the server again
