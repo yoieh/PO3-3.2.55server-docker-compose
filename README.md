@@ -6,7 +6,7 @@ First run
 
 `cp .env.example .env`
 
-change PORT to your mc prot inside of the created .env
+change PORT to your mc port inside of the created .env
 
 Then do a first start
 
