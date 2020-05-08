@@ -19,3 +19,7 @@ After the fist start shutdown the server by runing  `docker-compose down`
 You can now replace the world dir in `./data` with your own world and other files you might need.
 
 Start the server again
+
+## Customize docker container
+
+More settings for the docker-compose.yml file will be found here: [https://hub.docker.com/r/itzg/minecraft-server](https://hub.docker.com/r/itzg/minecraft-server)
