@@ -1,0 +1,17 @@
+version: "3.2"
+
+services:
+  mc:
+    image: itzg/minecraft-server
+    environment:
+      EULA: "true"
+      TYPE: FTB
+      FTB_SERVER_MOD: https://media.forgecdn.net/files/2912/700/PO3+-+3.2.55server.zip
+      # MAX_MEMORY: 8G
+      MAX_PLAYERS: 100
+    restart: unless-stopped
+    volumes:
+      # use a named, managed volume for data volume
+      - ./data:/data/FeedTheBeast/
+    ports:
+      - ${PORT}:25565
